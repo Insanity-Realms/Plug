@@ -116,13 +116,13 @@ var stream = true;
 var MAX_USERS_WAITLIST = 50;
 
 
-var fbMsg = ["Like our Facebook page! http://Facebook.com/InsanityRealmsServer", "check out our Facebook page at http://Facebook.com/InsanityRealmsServer", "drop us a like on our Facebook page http://Facebook.com/InsanityRealmsServer", "Like our FB page or die! Just kidding http://Facebook.com/InsanityRealmsServer"];
-var rulesMsg = "Rules: 1) for all ages so no porn 2) no songs over 8 mins 3) spamming can lead to an instant ban 4) please keep songs to EDM 5) have fun!";
-var skipMsg = ["please do not ask to skip songs", "asking to skip songs can lead to being kicked", "please please PLEASE don't ask to skip songs D:"];
-var fansMsg = ["please do not ask for fans", "earn your fans!!!", "earn your fans like the rest of us", "the number of fans you have means nothing anyway, so don't ask for them!"];
-var wafflesMsg = ["WAFFLES FOR EVERYONE!! #-(>_<)-#", "did somebody say WAFFLES? #-(>_<)-#", "cheese ca- I mean WAFFLES TIME! #-(>_<)-#", "do you know what it is time for? WAFFLES #-(>_<)-#"];
-var bhvMsg = ["please be appropriate in the chat", "please do not talk like that, control yourself!",  "please be mature in the chat guys"];
-var sleepMsg = ["Sleepy time!!!", "going to sleep now", "time to hit the sack", "so tired, sleep is needed me thinks", "tiredness... taking... over... must sleep"];
+var fbMsg = ["Like our Facebook page! http://Facebook.com/InsanityRealmsServer.", "Check out our Facebook page at http://Facebook.com/InsanityRealmsServer.", "Drop us a like on our Facebook page http://Facebook.com/InsanityRealmsServer.", "Like our Facebook page or die! Just kidding http://Facebook.com/InsanityRealmsServer."];
+var rulesMsg = "Rules: 1) No posting links. 2) No songs over 8 minutes. 3) Spamming can lead to an instant ban. 4) Only play songs. 5) Have fun!";
+var skipMsg = ["Please do not ask to skip songs.", "Asking to skip songs can lead to being kicked.", "Please please PLEASE, don't ask to skip songs. :("];
+var fansMsg = ["Please do not ask for fans.", "Earn your fans!!!", "Earn your fans like the rest of us.", "The number of fans you have means nothing anyway, so don't ask for them!"];
+var wafflesMsg = ["WAFFLES FOR EVERYONE!! #-(>_<)-#", "Did somebody say WAFFLES? #-(>_<)-#", "Cheesebur- I mean WAFFLE TIME! #-(>_<)-#", "Do you know what it is time for? WAFFLES #-(>_<)-#"];
+var bhvMsg = ["Please be appropriate in the chat.", "Please do not talk like that, control yourself!",  "Please be mature in the chat guys."];
+var sleepMsg = ["Sleepy time!!!", "Going to sleep now.", "Time to hit the sack.", "So tired, need sleep...", "Tiredness... taking... over... must sleep."];
 var workMsg = ["I'm working, so mention me if I'm needed.", "I'm going to do work related stuffs, mention if needed.", "I'm gonna be busy, mention if needed."];
 var afkMsg = ["I'm going away on a merry merry quest, be back soon!", "Going AFK for a while, be back soon!", "Going away, be back soon!", "Going to hunt the galaxy, be back soon!"];
 var backMsg = ["I'm back from my adventures!", "I'm baaacckkk", "Guess who's back? ME! I'm back. :D", "Be-ber-ber-b-be-back!"];

@@ -516,13 +516,13 @@ function populateUserlist() {
         	totalMEHsPercentage = totalWOOTsPercentage = 0;
     	}
     	currentdj = ' ' + currentdj;
-	mehlist = '<a title="Total mehs.">' + ' ' + totalMEHs.toString() + '</a><a title=" Meh percentage">' + ' (' + totalMEHsPercentage.toString() + '&#37;)' + '</a>' + mehlist;
-    	wootlist = '<a title="Total woots.">' + ' ' + totalWOOTs.toString() + '</a><a title=" Woot percentage">' + ' (' + totalWOOTsPercentage.toString() + '&#37;)' + '</a>' + wootlist;
+	mehlist = '<a title="Total mehs.">' + ' ' + totalMEHs.toString() + '</a><a title=" Meh percentage.">' + ' (' + totalMEHsPercentage.toString() + '&#37;)' + '</a>' + mehlist;
+    	wootlist = '<a title="Total woots.">' + ' ' + totalWOOTs.toString() + '</a><a title=" Woot percentage.">' + ' (' + totalWOOTsPercentage.toString() + '&#37;)' + '</a>' + wootlist;
     	undecidedlist = ' ' + totalUNDECIDEDs.toString() + undecidedlist;
 	if ($('#side-left .sidebar-content2').children().length > 0) {
             	$('#side-left .sidebar-content2').append();
 	}
-        $('#side-left .sidebar-content2').html('<h3 class="Users" title="Number of people in the room.">users: ' + API.getUsers().length + '</h3>');
+        $('#side-left .sidebar-content2').html('<h3 class="Users" title="Number of users in the room.">users: ' + API.getUsers().length + '</h3>');
         var spot = Models.room.getWaitListPosition();
         var waitlistDiv = $('<h3 title="Waitlist position."></h3>').addClass('waitlistspot').text('Waitlist: ' + (spot !== null ? spot + ' / ' : '') + Models.room.data.waitList.length);
         $('#side-left .sidebar-content2').append(waitlistDiv);
@@ -569,7 +569,7 @@ function checkSkipped() {
 }
 
 delay();
-$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Welcome to the Insanity Realms, by DerekZil. Version: 2.0</span></div>');
+$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Welcome to the Insanity Realms!  Come join us on Minecraft: InsanityRealms.zapto.org</span></div>');
 $('body').prepend('<style type="text/css" id="plug-css">' + "\n" + styles.join("\n") + "\n" + '</style>');
 $('body').append('</div><div id="side-right" class="sidebar">' + '<div class="sidebar-handle"><span>|||</span></div>' + '<div class="sidebar-content"></div>' + '<div id="hr-div"><div><div id="hr-style"></div></div></div>' + '</div><div id="side-left" class="sidebar">' + '<div class="sidebar-handle" title="Show/hide userlist."><span>|||</span></div>' + '<div class="sidebar-content2"></div>' + '<div id="hr2-div2"><div><div id="hr2-style2"></div></div></div>' + '</div>');
 $('body').append('<script type="text/javascript" id="plug-js-extra">' + "\n" + scripts.join("\n") + "\n" + '</script>');

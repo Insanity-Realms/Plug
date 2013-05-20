@@ -528,9 +528,9 @@ function populateUserlist() {
         $('#side-left .sidebar-content2').append(waitlistDiv);
         $('#side-left .sidebar-content2').append('<div class="meanlist"></div>');
         $(".meanlist").append( 
-        		'<div id="currentdj_div" style="border: 1px solid rgb(0, 112, 255);"><a title="Current DJ">current dj:</a>' +   currentdj + '</div>'
-        	+ 	'<div id="mehlist_div" style="border: 1px solid rgb(233, 6, 6);"><a title="Meh List">meh list:</a>' +   mehlist + '</div>' 
-        	+ 	'<div id="wootlist_div" style="border: 1px solid rgb(2, 140, 7);"><a title="Woot List">woot list:</a>' + wootlist + '</div>'
+        		'<div id="currentdj_div" style="border: 1px solid rgb(0, 112, 255);"><a title="Current DJ">Current DJ:</a>' +   currentdj + '</div>'
+        	+ 	'<div id="mehlist_div" style="border: 1px solid rgb(233, 6, 6);"><a title="Meh List">Meh List:</a>' +   mehlist + '</div>' 
+        	+ 	'<div id="wootlist_div" style="border: 1px solid rgb(2, 140, 7);"><a title="Woot List">Woot List:</a>' + wootlist + '</div>'
         	+	'<div id="spacer_div"></br></br></div>'
         );
 }
@@ -569,7 +569,7 @@ function checkSkipped() {
 }
 
 delay();
-$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Also, welcome to Dubstep, Techno, and Electro custom script, coded by Nitro Ghost. Version: 4.1.3</span></div>');
+$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Also, welcome to the Insanity Realms script, coded by DerekZil. Version: 2.0</span></div>');
 $('body').prepend('<style type="text/css" id="plug-css">' + "\n" + styles.join("\n") + "\n" + '</style>');
 $('body').append('</div><div id="side-right" class="sidebar">' + '<div class="sidebar-handle"><span>|||</span></div>' + '<div class="sidebar-content"></div>' + '<div id="hr-div"><div><div id="hr-style"></div></div></div>' + '</div><div id="side-left" class="sidebar">' + '<div class="sidebar-handle" title="show/hide userlist"><span>|||</span></div>' + '<div class="sidebar-content2"></div>' + '<div id="hr2-div2"><div><div id="hr2-style2"></div></div></div>' + '</div>');
 $('body').append('<script type="text/javascript" id="plug-js-extra">' + "\n" + scripts.join("\n") + "\n" + '</script>');

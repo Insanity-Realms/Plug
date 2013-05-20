@@ -211,24 +211,24 @@ function displayUI() {
     	var colorVideo = hideVideo ? '#3FFF00' : '#ED1C24';
     	var colorEmotes = emotes ? '#3FFF00' : '#ED1C24';
 	$('#side-right .sidebar-content').append(
-			'<a id="plug-btn-woot" title="toggles auto woot" style="color:' + colorWoot + '">Auto Woot</a>'
-		+ 	'<a id="plug-btn-queue" title="toggles auto queue" style="color:' + colorQueue + '">Auto Queue</a>'
-		+ 	'<a id="plug-btn-stream" title="toggles video stream" style="color:' + colorStream + '">Stream</a>'
-		+ 	'<a id="plug-btn-hidevideo" title="toggles hide video" style="color:' + colorVideo + '">Hide Video</a>'
-		+	'<a id="plug-btn-emotes" title="toggles emoticons" style="color:' + colorEmotes + '">Emoticons</a>'
-		+	'<a id="plug-btn-rules" title="sends rules" style="color:#FF8C00">rules</a>'
-		+	'<a id="plug-btn-face" title="sends fb link" style="color:#FF8C00">like our fb</a>'
-		+	'<a id="plug-btn-fans" title="sends fan message" style="color:#FF8C00">no fans</a>'
-		+	'<a id="plug-btn-noskip" title="send no skip message" style="color:#FF8C00">no skip</a>'
-		+	'<a id="plug-btn-waffles" title="sends waffle message" style="color:#FF8C00">waffles</a>'
-		+	'<a id="plug-btn-sleeping" title="sends sleep message and sets status to sleeping" style="color:#FF8C00">Sleeping</a>'
+			'<a id="plug-btn-woot" title="Toggles auto woot." style="color:' + colorWoot + '">Auto Woot</a>'
+		+ 	'<a id="plug-btn-queue" title="Toggles auto queue." style="color:' + colorQueue + '">Auto Queue</a>'
+		+ 	'<a id="plug-btn-stream" title="Toggles video stream." style="color:' + colorStream + '">Stream</a>'
+		+ 	'<a id="plug-btn-hidevideo" title="Toggles hide video." style="color:' + colorVideo + '">Hide Video</a>'
+		+	'<a id="plug-btn-emotes" title="Toggles emoticons." style="color:' + colorEmotes + '">Emoticons</a>'
+		+	'<a id="plug-btn-rules" title="Sends rules." style="color:#FF8C00">rules</a>'
+		+	'<a id="plug-btn-face" title="Sends Facebook link." style="color:#FF8C00">like our fb</a>'
+		+	'<a id="plug-btn-fans" title="Sends fan message." style="color:#FF8C00">no fans</a>'
+		+	'<a id="plug-btn-noskip" title="Send no skip message." style="color:#FF8C00">no skip</a>'
+		+	'<a id="plug-btn-waffles" title="Sends waffle message." style="color:#FF8C00">waffles</a>'
+		+	'<a id="plug-btn-sleeping" title="Sends sleep message and sets status to sleeping." style="color:#FF8C00">Sleeping</a>'
 		+	'<a id="plug-btn-working" title="sends work message and sets status to working" style="color:#FF8C00">Working</a>'
-		+	'<a id="plug-btn-afk" title="sends afk message and sets status to afk" style="color:#FF8C00">AFK</a>'
-		+	'<a id="plug-btn-back" title="sends available message and sets status to available" style="color:#FF8C00">Available</a>'
-		+	'<a id="plug-btn-skip" title="skips current DJ" style="color:#E90E82">Skip</a>'
-		+	'<a id="plug-btn-lock" title="locks booth" style="color:#E90E82">Lock</a>'
-		+	'<a id="plug-btn-unlock" title="unlocks booth" style="color:#E90E82">Unlock</a>'
-		+	'<a id="plug-btn-lockskip" title="locks booth, skips DJ, then unlocks booth" style="color:#E90E82">Lock&Skip</a>'
+		+	'<a id="plug-btn-afk" title="Sends AFK message and sets status to AFK." style="color:#FF8C00">AFK</a>'
+		+	'<a id="plug-btn-back" title="Sends available message and sets status to available." style="color:#FF8C00">Available</a>'
+		+	'<a id="plug-btn-skip" title="Skips current DJ." style="color:#E90E82">Skip</a>'
+		+	'<a id="plug-btn-lock" title="Locks booth." style="color:#E90E82">Lock</a>'
+		+	'<a id="plug-btn-unlock" title="Unlocks booth." style="color:#E90E82">Unlock</a>'
+		+	'<a id="plug-btn-lockskip" title="Locks booth, skips DJ, then unlocks booth." style="color:#E90E82">Lock & Skip</a>'
     );
 }
 
@@ -516,15 +516,15 @@ function populateUserlist() {
         	totalMEHsPercentage = totalWOOTsPercentage = 0;
     	}
     	currentdj = ' ' + currentdj;
-	mehlist = '<a title="total mehs">' + ' ' + totalMEHs.toString() + '</a><a title=" Meh percentage">' + ' (' + totalMEHsPercentage.toString() + '&#37;)' + '</a>' + mehlist;
-    	wootlist = '<a title="total woots">' + ' ' + totalWOOTs.toString() + '</a><a title=" Woot percentage">' + ' (' + totalWOOTsPercentage.toString() + '&#37;)' + '</a>' + wootlist;
+	mehlist = '<a title="Total mehs.">' + ' ' + totalMEHs.toString() + '</a><a title=" Meh percentage">' + ' (' + totalMEHsPercentage.toString() + '&#37;)' + '</a>' + mehlist;
+    	wootlist = '<a title="Total woots.">' + ' ' + totalWOOTs.toString() + '</a><a title=" Woot percentage">' + ' (' + totalWOOTsPercentage.toString() + '&#37;)' + '</a>' + wootlist;
     	undecidedlist = ' ' + totalUNDECIDEDs.toString() + undecidedlist;
 	if ($('#side-left .sidebar-content2').children().length > 0) {
             	$('#side-left .sidebar-content2').append();
 	}
-        $('#side-left .sidebar-content2').html('<h3 class="users" title="Number of users in the room.">users: ' + API.getUsers().length + '</h3>');
+        $('#side-left .sidebar-content2').html('<h3 class="Users" title="Number of people in the room.">users: ' + API.getUsers().length + '</h3>');
         var spot = Models.room.getWaitListPosition();
-        var waitlistDiv = $('<h3 title="waitlist posisition"></h3>').addClass('waitlistspot').text('Waitlist: ' + (spot !== null ? spot + ' / ' : '') + Models.room.data.waitList.length);
+        var waitlistDiv = $('<h3 title="Waitlist position."></h3>').addClass('waitlistspot').text('Waitlist: ' + (spot !== null ? spot + ' / ' : '') + Models.room.data.waitList.length);
         $('#side-left .sidebar-content2').append(waitlistDiv);
         $('#side-left .sidebar-content2').append('<div class="meanlist"></div>');
         $(".meanlist").append( 
@@ -569,7 +569,7 @@ function checkSkipped() {
 }
 
 delay();
-$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Also, welcome to the Insanity Realms script, coded by DerekZil. Version: 2.0</span></div>');
+$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Welcome to the Insanity Realms, by DerekZil. Version: 2.0</span></div>');
 $('body').prepend('<style type="text/css" id="plug-css">' + "\n" + styles.join("\n") + "\n" + '</style>');
-$('body').append('</div><div id="side-right" class="sidebar">' + '<div class="sidebar-handle"><span>|||</span></div>' + '<div class="sidebar-content"></div>' + '<div id="hr-div"><div><div id="hr-style"></div></div></div>' + '</div><div id="side-left" class="sidebar">' + '<div class="sidebar-handle" title="show/hide userlist"><span>|||</span></div>' + '<div class="sidebar-content2"></div>' + '<div id="hr2-div2"><div><div id="hr2-style2"></div></div></div>' + '</div>');
+$('body').append('</div><div id="side-right" class="sidebar">' + '<div class="sidebar-handle"><span>|||</span></div>' + '<div class="sidebar-content"></div>' + '<div id="hr-div"><div><div id="hr-style"></div></div></div>' + '</div><div id="side-left" class="sidebar">' + '<div class="sidebar-handle" title="Show/hide userlist."><span>|||</span></div>' + '<div class="sidebar-content2"></div>' + '<div id="hr2-div2"><div><div id="hr2-style2"></div></div></div>' + '</div>');
 $('body').append('<script type="text/javascript" id="plug-js-extra">' + "\n" + scripts.join("\n") + "\n" + '</script>');

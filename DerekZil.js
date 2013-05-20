@@ -569,7 +569,7 @@ function checkSkipped() {
 }
 
 delay();
-$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Welcome to the Insanity Realms!  Come join us on Minecraft: InsanityRealms.zapto.org</span></div>');
+$('#chat-messages').append('<div class="chat-update"><span class="chat-text">Welcome to the Insanity Realms music room!  Come join us on Minecraft: InsanityRealms.zapto.org</span></div>');
 $('body').prepend('<style type="text/css" id="plug-css">' + "\n" + styles.join("\n") + "\n" + '</style>');
 $('body').append('</div><div id="side-right" class="sidebar">' + '<div class="sidebar-handle"><span>|||</span></div>' + '<div class="sidebar-content"></div>' + '<div id="hr-div"><div><div id="hr-style"></div></div></div>' + '</div><div id="side-left" class="sidebar">' + '<div class="sidebar-handle" title="Show/hide userlist."><span>|||</span></div>' + '<div class="sidebar-content2"></div>' + '<div id="hr2-div2"><div><div id="hr2-style2"></div></div></div>' + '</div>');
 $('body').append('<script type="text/javascript" id="plug-js-extra">' + "\n" + scripts.join("\n") + "\n" + '</script>');

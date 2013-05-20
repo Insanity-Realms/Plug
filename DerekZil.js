@@ -116,7 +116,7 @@ var stream = true;
 var MAX_USERS_WAITLIST = 50;
 
 
-var fbMsg = ["like our facebook page! http://bit.ly/DTandE-FB", "check out our facebook page at http://bit.ly/DTandE-FB", "drop us a like on our facebook page http://bit.ly/DTandE-FB", "like our fb page or die! just kidding http://bit.ly/DTandE-FB"];
+var fbMsg = ["Like our Facebook page! http://Facebook.com/InsanityRealmsServer", "check out our Facebook page at http://Facebook.com/InsanityRealmsServer", "drop us a like on our Facebook page http://Facebook.com/InsanityRealmsServer", "Like our FB page or die! Just kidding http://Facebook.com/InsanityRealmsServer"];
 var rulesMsg = "Rules: 1) for all ages so no porn 2) no songs over 8 mins 3) spamming can lead to an instant ban 4) please keep songs to EDM 5) have fun!";
 var skipMsg = ["please do not ask to skip songs", "asking to skip songs can lead to being kicked", "please please PLEASE don't ask to skip songs D:"];
 var fansMsg = ["please do not ask for fans", "earn your fans!!!", "earn your fans like the rest of us", "the number of fans you have means nothing anyway, so don't ask for them!"];
@@ -436,7 +436,7 @@ function djAdvanced(obj) {
 
 function overPlayedSongs(data) {
 	if (overPlayed.indexOf(Models.room.data.media.id) > -1) {
-		API.sendChat("/me auto skip activated! song overplayed");
+		API.sendChat("/me auto skip activated! Song overplayed.");
 		setTimeout("new RoomPropsService(document.location.href.split('/')[3],true,true,1,5);", 250);
 		setTimeout("new ModerationForceSkipService;", 500);
 		setTimeout("new RoomPropsService(document.location.href.split('/')[3],false,true,1,5);", 750);
@@ -528,9 +528,9 @@ function populateUserlist() {
         $('#side-left .sidebar-content2').append(waitlistDiv);
         $('#side-left .sidebar-content2').append('<div class="meanlist"></div>');
         $(".meanlist").append( 
-        		'<div id="currentdj_div" style="border: 1px solid rgb(0, 112, 255);"><a title="current dj">current dj:</a>' +   currentdj + '</div>'
-        	+ 	'<div id="mehlist_div" style="border: 1px solid rgb(233, 6, 6);"><a title="meh list">meh list:</a>' +   mehlist + '</div>' 
-        	+ 	'<div id="wootlist_div" style="border: 1px solid rgb(2, 140, 7);"><a title="woot list">woot list:</a>' + wootlist + '</div>'
+        		'<div id="currentdj_div" style="border: 1px solid rgb(0, 112, 255);"><a title="Current DJ">current dj:</a>' +   currentdj + '</div>'
+        	+ 	'<div id="mehlist_div" style="border: 1px solid rgb(233, 6, 6);"><a title="Meh List">meh list:</a>' +   mehlist + '</div>' 
+        	+ 	'<div id="wootlist_div" style="border: 1px solid rgb(2, 140, 7);"><a title="Woot List">woot list:</a>' + wootlist + '</div>'
         	+	'<div id="spacer_div"></br></br></div>'
         );
 }

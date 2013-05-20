@@ -123,7 +123,7 @@ var fansMsg = ["please do not ask for fans", "earn your fans!!!", "earn your fan
 var wafflesMsg = ["WAFFLES FOR EVERYONE!! #-(>_<)-#", "did somebody say WAFFLES? #-(>_<)-#", "cheese ca- I mean WAFFLES TIME! #-(>_<)-#", "do you know what it is time for? WAFFLES #-(>_<)-#"];
 var bhvMsg = ["please be appropriate in the chat", "please do not talk like that, control yourself!",  "please be mature in the chat guys"];
 var sleepMsg = ["Sleepy time!!!", "going to sleep now", "time to hit the sack", "so tired, sleep is needed me thinks", "tiredness... taking... over... must sleep"];
-var workMsg = ["I'm working so mention me if I'm needed.", "I'm going to do work related stuffs, mention if needed.", "I'm gonna be busy, mention if needed."];
+var workMsg = ["I'm working, so mention me if I'm needed.", "I'm going to do work related stuffs, mention if needed.", "I'm gonna be busy, mention if needed."];
 var afkMsg = ["I'm going away on a merry merry quest, be back soon!", "Going AFK for a while, be back soon!", "Going away, be back soon!", "Going to hunt the galaxy, be back soon!"];
 var backMsg = ["I'm back from my adventures!", "I'm baaacckkk", "Guess who's back? ME! I'm back. :D", "Be-ber-ber-b-be-back!"];
 

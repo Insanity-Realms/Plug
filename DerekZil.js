@@ -125,7 +125,7 @@ var bhvMsg = ["please be appropriate in the chat", "please do not talk like that
 var sleepMsg = ["Sleepy time!!!", "going to sleep now", "time to hit the sack", "so tired, sleep is needed me thinks", "tiredness... taking... over... must sleep"];
 var workMsg = ["I'm working so mention me if I'm needed.", "I'm going to do work related stuffs, mention if needed.", "I'm gonna be busy, mention if needed."];
 var afkMsg = ["I'm going away on a merry merry quest, be back soon!", "Going AFK for a while, be back soon!", "Going away, be back soon!", "Going to hunt the galaxy, be back soon!"];
-var backMsg = ["I'm back from my adventures!", "I'm baaacckkk", "Guess who's back? ME! I'm back :D", "Be-ber-ber-b-be-back!"];
+var backMsg = ["I'm back from my adventures!", "I'm baaacckkk", "Guess who's back? ME! I'm back. :D", "Be-ber-ber-b-be-back!"];
 
 var autoAwayMsg = ["I'm currently AFK.", "I'm AFK.", "I'm on an adventure. (AFK)", "Gone away for a moment.", "Not present at keyboard."];
 var autoSlpMsg = ["I'm currently sleeping.", "I'm counting sheep in my dreams.", "I've hit the sack.", "I'm asleep.", "I've gone to sleep."];

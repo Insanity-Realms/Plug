@@ -123,13 +123,13 @@ var fansMsg = ["please do not ask for fans", "earn your fans!!!", "earn your fan
 var wafflesMsg = ["WAFFLES FOR EVERYONE!! #-(>_<)-#", "did somebody say WAFFLES? #-(>_<)-#", "cheese ca- I mean WAFFLES TIME! #-(>_<)-#", "do you know what it is time for? WAFFLES #-(>_<)-#"];
 var bhvMsg = ["please be appropriate in the chat", "please do not talk like that, control yourself!",  "please be mature in the chat guys"];
 var sleepMsg = ["Sleepy time!!!", "going to sleep now", "time to hit the sack", "so tired, sleep is needed me thinks", "tiredness... taking... over... must sleep"];
-var workMsg = ["I'm working so mention me if I'm needed", "I'm going to do work related stuffs, mention if needed", "I'm gonna be busy, mention if needed"];
-var afkMsg = ["I'm going away on a merry merry quest, be back soon!", "going AFK for a while, be back soon!", "going away, be back soon!", "going to hunt the galaxy, be back soon!"];
-var backMsg = ["I'm back from my adventures!", "I'm baaacckkk", "guess who's back? ME! I'm back :D", "be-ber-ber-b-be-back!"];
+var workMsg = ["I'm working so mention me if I'm needed.", "I'm going to do work related stuffs, mention if needed.", "I'm gonna be busy, mention if needed."];
+var afkMsg = ["I'm going away on a merry merry quest, be back soon!", "Going AFK for a while, be back soon!", "Going away, be back soon!", "Going to hunt the galaxy, be back soon!"];
+var backMsg = ["I'm back from my adventures!", "I'm baaacckkk", "Guess who's back? ME! I'm back :D", "Be-ber-ber-b-be-back!"];
 
-var autoAwayMsg = ["I'm currently AFK", "I'm AFK", "I'm on an adventure (afk)", "gone away for a moment", "not present at keyboard"];
-var autoSlpMsg = ["I'm currently sleeping", "I'm counting sheep in my dreams", "I've hit the sack", "I'm asleep", "I've gone to sleep"];
-var autoWrkMsg = ["I'm currently working", "I'm busy", "doing work related stuffs"];
+var autoAwayMsg = ["I'm currently AFK.", "I'm AFK.", "I'm on an adventure. (AFK)", "Gone away for a moment.", "Not present at keyboard."];
+var autoSlpMsg = ["I'm currently sleeping.", "I'm counting sheep in my dreams.", "I've hit the sack.", "I'm asleep.", "I've gone to sleep."];
+var autoWrkMsg = ["I'm currently working.", "I'm busy.", "Doing work related stuffs."];
 
 overPlayed = ["1:8cOt9UcYGOU", "1:LXO-jKksQkM", "1:4wTLjEqj5Xk", "1:sf6LD2B_kDQ", "1:F2FMDV8yW9M", "1:4q-jv4OBCa0", "1:-0oZNWif_jk", "1:vZyenjZseXA", "1:ZT4yoZNy90s", "1:Bparw9Jo3dk", "1:KrVC5dm5fFc","1:Ys9sIqv42lo", "1:1y6smkh6c-0", "1:jZL-RUZUoGY", "1:CrdoD9T1Heg", "1:6R_Rn1iP82I", "1:ea9tluQ_QtE", "1:f9EM8T5K6d8", "1:aHjpOzsQ9YI", "1:3vC5TsSyNjU", "1:yXLL46xkdlY", "1:_t2TzJOyops", "1:BGpzGu9Yp6Y", "1:YJVmu6yttiw", "1:WSeNSzJ2-Jw", "1:2cXDgFwE13g", "1:PR_u9rvFKzE", "1:i1BDGqIfm8U"];
 
@@ -222,7 +222,7 @@ function displayUI() {
 		+	'<a id="plug-btn-noskip" title="Send no skip message." style="color:#FF8C00">no skip</a>'
 		+	'<a id="plug-btn-waffles" title="Sends waffle message." style="color:#FF8C00">waffles</a>'
 		+	'<a id="plug-btn-sleeping" title="Sends sleep message and sets status to sleeping." style="color:#FF8C00">Sleeping</a>'
-		+	'<a id="plug-btn-working" title="sends work message and sets status to working" style="color:#FF8C00">Working</a>'
+		+	'<a id="plug-btn-working" title="Sends work message and sets status to working." style="color:#FF8C00">Working</a>'
 		+	'<a id="plug-btn-afk" title="Sends AFK message and sets status to AFK." style="color:#FF8C00">AFK</a>'
 		+	'<a id="plug-btn-back" title="Sends available message and sets status to available." style="color:#FF8C00">Available</a>'
 		+	'<a id="plug-btn-skip" title="Skips current DJ." style="color:#E90E82">Skip</a>'
@@ -529,8 +529,8 @@ function populateUserlist() {
         $('#side-left .sidebar-content2').append('<div class="meanlist"></div>');
         $(".meanlist").append( 
         		'<div id="currentdj_div" style="border: 1px solid rgb(0, 112, 255);"><a title="Current DJ">Current DJ:</a>' +   currentdj + '</div>'
-        	+ 	'<div id="mehlist_div" style="border: 1px solid rgb(233, 6, 6);"><a title="Meh List">Meh List:</a>' +   mehlist + '</div>' 
-        	+ 	'<div id="wootlist_div" style="border: 1px solid rgb(2, 140, 7);"><a title="Woot List">Woot List:</a>' + wootlist + '</div>'
+        	+ 	'<div id="mehlist_div" style="border: 1px solid rgb(233, 6, 6);"><a title="Meh list.">Meh List:</a>' +   mehlist + '</div>' 
+        	+ 	'<div id="wootlist_div" style="border: 1px solid rgb(2, 140, 7);"><a title="Woot list.">Woot List:</a>' + wootlist + '</div>'
         	+	'<div id="spacer_div"></br></br></div>'
         );
 }

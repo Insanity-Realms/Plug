@@ -834,7 +834,7 @@ function chatListener() {
 
 delay();
 $('#plugbot-js').remove();
-log("Also, welcome to ★Insanity Realms★, coded by Nitro Ghost. Version: 4.1.4");
+log("Also, welcome to ★Insanity Realms★, coded by DerekZil. Version: 4.1.5");
 log("type '/commands' to see extra commands");
 $('body').prepend('<script type="text/javascript" id="autoskip-js" src="https://raw.github.com/Snipeglider/Plug/master/autoskip.js" />');
 $('body').prepend('<script type="text/javascript" id="blacklist-js" src="https://raw.github.com/Snipeglider/Plug/master/blacklist.js" />');
